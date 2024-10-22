@@ -6,9 +6,6 @@ function formatMessage(message, maxLength) {
     else {
 
         let charsToRemove = message.slice(maxLength, message.length);
-    // console.log(charsToRemove);
-    // let truncatedMessage = message.replace(charsToRemove, "...");
-    // console.log(truncatedMessage);
 
         return message.replace(charsToRemove, "...");
     }
